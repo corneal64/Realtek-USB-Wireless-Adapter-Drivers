@@ -2,7 +2,7 @@
 
 ### Realtek USB Wireless Adapter Drivers [rtl8188fu] [0bda:f179]
 
-### For Kernel 4.15.x ~ 5.3.x (Linux Mint or Ubuntu Derivatives)
+### For Kernel 4.15.x ~ 5.6.x (Linux Mint or Ubuntu Derivatives)
 
 ------------------
 
