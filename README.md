@@ -2,21 +2,18 @@
 
 ### Realtek USB Wireless Adapter Drivers [rtl8188fu] [0bda:f179]
 
-### For Kernel 4.15.x ~ 5.3.x (Linux Mint or Ubuntu Derivatives)
+### For Kernel 4.15.x ~ 5.9.x (ARM devices)
 
 ------------------
 
 ![Alt text](/realtek-usb-wireless-adapter.jpg?raw=true "Realtek USB Wireless Adapter")
 
 ------------------
-If you're building on an ARM architecture, then check this [issue](https://github.com/corneal64/Realtek-USB-Wireless-Adapter-Drivers/issues/5#issue-619671014), it may help.
-------------------
-
 ## How to install
 
 `sudo apt-get install build-essential git dkms linux-headers-$(uname -r)`
 
-`git clone https://github.com/corneal64/Realtek-USB-Wireless-Adapter-Drivers.git`
+`git clone -b ARM-driver https://github.com/corneal64/Realtek-USB-Wireless-Adapter-Drivers.git`
 
 `cd Realtek-USB-Wireless-Adapter-Drivers`
 
@@ -39,6 +36,16 @@ If you're building on an ARM architecture, then check this [issue](https://githu
 `echo "options rtl8188fu rtw_power_mgnt=0 rtw_enusbss=0" | sudo tee /etc/modprobe.d/rtl8188fu.conf`
 
 ------------------
+
+## Disable MAC address spoofing
+
+`sudo mkdir -p /etc/NetworkManager/conf.d/`
+
+`sudo touch /etc/NetworkManager/conf.d/disable-random-mac.conf`
+
+`echo -e "[device]\nwifi.scan-rand-mac-address=no" | sudo tee /etc/NetworkManager/conf.d/disable-random-mac.conf`
+
+---------------
 
 ## How to uninstall
 
