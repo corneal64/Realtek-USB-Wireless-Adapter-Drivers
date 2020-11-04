@@ -9,8 +9,10 @@
 ![Alt text](/realtek-usb-wireless-adapter.jpg?raw=true "Realtek USB Wireless Adapter")
 
 ------------------
-If you're building on an ARM architecture, then check this [issue](https://github.com/corneal64/Realtek-USB-Wireless-Adapter-Drivers/issues/5#issue-619671014), it may help.
+For ARM architecture, use [this branch](https://github.com/corneal64/Realtek-USB-Wireless-Adapter-Drivers/tree/ARM-driver)
 ------------------
+
+
 
 ## How to install
 
