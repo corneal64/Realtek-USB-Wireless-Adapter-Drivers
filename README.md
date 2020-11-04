@@ -9,7 +9,7 @@
 ![Alt text](/realtek-usb-wireless-adapter.jpg?raw=true "Realtek USB Wireless Adapter")
 
 ------------------
-For ARM architecture, use [this branch](https://github.com/corneal64/Realtek-USB-Wireless-Adapter-Drivers/tree/ARM-driver)
+For ARM architecture (and kernel 5.9.x support), use [this branch](https://github.com/corneal64/Realtek-USB-Wireless-Adapter-Drivers/tree/ARM-driver)
 ------------------
 
 
