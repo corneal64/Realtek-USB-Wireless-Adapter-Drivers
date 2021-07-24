@@ -1,5 +1,8 @@
 # Realtek USB Wireless Adapter Drivers
 
+> Added Jetson Nano Support (kernel 4.9.x) 
+
+
 ### Realtek USB Wireless Adapter Drivers [rtl8188fu] [0bda:f179]
 
 ### For Kernel 4.15.x ~ 5.9.x (ARM devices)
