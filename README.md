@@ -1,6 +1,7 @@
 # Realtek USB Wireless Adapter Drivers [JETSON PLATFORM]
 
 > Added Jetson Nano Support (kernel 4.9.x) - 24/07/2021
+
 > Tested also in Jetson TK1 (kernel 3.10.x) - 25/07/2021
 
 
@@ -13,6 +14,7 @@
 ------------------
 ## [For Jetson TK 1 Only] Run this following command
 `cd /usr/src/linux-headers-$(uname -r)`
+
 `sudo make modules_prepare`
 
 
