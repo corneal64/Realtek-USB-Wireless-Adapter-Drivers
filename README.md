@@ -16,7 +16,7 @@
 
 `sudo apt-get install build-essential git dkms linux-headers-$(uname -r)`
 
-`git clone -b ARM-driver https://github.com/corneal64/Realtek-USB-Wireless-Adapter-Drivers.git`
+`git clone -b ARM-driver https://github.com/Muhammad-Yunus/Realtek-USB-Wireless-Adapter-Drivers.git`
 
 `cd Realtek-USB-Wireless-Adapter-Drivers`
 
