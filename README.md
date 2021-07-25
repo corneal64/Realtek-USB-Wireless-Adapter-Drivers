@@ -1,20 +1,25 @@
-# Realtek USB Wireless Adapter Drivers
+# Realtek USB Wireless Adapter Drivers [JETSON PLATFORM]
 
-> Added Jetson Nano Support (kernel 4.9.x) 
+> Added Jetson Nano Support (kernel 4.9.x) - 24/07/2021
+> Tested also in Jetson TK1 (kernel 3.10.x) - 25/07/2021
 
 
 ### Realtek USB Wireless Adapter Drivers [rtl8188fu] [0bda:f179]
-
-### For Kernel 4.15.x ~ 5.9.x (ARM devices)
 
 ------------------
 
 ![Alt text](/realtek-usb-wireless-adapter.jpg?raw=true "Realtek USB Wireless Adapter")
 
 ------------------
-## How to install
+## [For Jetson TK 1 Only] Run this following command
+`cd /usr/src/linux-headers-$(uname -r)`
+`sudo make modules_prepare`
 
-`sudo apt-get install build-essential git dkms linux-headers-$(uname -r)`
+
+## How to install
+`cd ~`
+
+`sudo apt-get install build-essential git dkms`
 
 `git clone -b ARM-driver https://github.com/Muhammad-Yunus/Realtek-USB-Wireless-Adapter-Drivers.git`
 
